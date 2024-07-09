@@ -14,7 +14,7 @@
     <div class="board">
         <div class="column" id="todo" ondrop="drop(event, 'todo')" ondragover="allowDrop(event)">
             <h2>Todo List</h2>
-            <hr>
+            
             <div class="tasks-in-btn">
                 <input type="text" id="taskInput" class="task-input" placeholder="Please Enter Your Task"
                     oninput="capitalizeInput(this)">
@@ -27,13 +27,13 @@
 
         <div class="column" id="in-progress" ondrop="drop(event, 'in-progress')" ondragover="allowDrop(event)">
             <h2>In Progress List</h2>
-            <hr>
+            
             <div class="task-container"></div>
         </div>
 
         <div class="column" id="done" ondrop="drop(event, 'done')" ondragover="allowDrop(event)">
             <h2>Done List</h2>
-            <hr>
+            
             <div class="task-container"></div>
         </div>
     </div>
